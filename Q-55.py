@@ -2,7 +2,7 @@
 
 import math
 
-r=int(input("Enter rADIUS: "))
+r=int(input("Enter Radius: "))
 cr=math.pi*r**2
 print("Area Of Circle is: ",cr)
 

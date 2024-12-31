@@ -2,6 +2,6 @@
 
 with open("file.txt", "r") as f:
     data=f.read().split()
-    for word in dataf.read().split():
+    for word in data
         if len(word) == 4 and word[0].lower() == word[-1].lower():
                 print(word)

@@ -15,10 +15,8 @@ f1.close()
 
 def display_oddLines():
     with open('friends.txt', 'r') as file:
-        line_number = 1
-        
-        for line in file:
-            if line_number % 2 != 0:
+        lines = file.readlines() 
+        for index, line in enumerate(lines):  # Enumerate through lines with their indices
+            if (index + 1) % 2 != 0:  # Check if the line number is odd (index + 1)
                 print(line, end='') 
-            line_number += 1
 display_oddLines()

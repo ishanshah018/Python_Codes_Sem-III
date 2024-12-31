@@ -32,4 +32,3 @@ with open("file1.txt", "r") as f2:
         if line and line[0].isupper():  # Check if the line starts with an uppercase letter
             print(line)  # Print the valid line
 
-f2.close()

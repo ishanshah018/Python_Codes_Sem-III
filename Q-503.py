@@ -2,13 +2,11 @@
 #  Example: If value in text file is : ‘INDIA IS MY COUNTRY’
 #  Output will be: ‘AIDNI SI MY COUNTRY’
 
-with open("file1.txt", "r") as f:
-    data = f.read()
-    lines = data.splitlines()
-    for line in lines:
-        words = line.split()
-        for w in words:
-            if w[0] == 'I':
-                print(w[::-1], end=" ")
-            else:
-                print(w, end=" ")
+with open("words.txt","r") as f:
+    data=f.read().split()
+    for i in data:
+        if i[0]=="I":
+            rev=i[::-1]
+            print(rev,end=' ')
+        else:
+            print(i,end=' ')

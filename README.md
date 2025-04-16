@@ -1,0 +1,1 @@
+I began learning  Python in Semester 3 of my B.Tech (CSE), where I built a strong foundation in the language — covering concepts like data types, control flow, functions, OOP, file handling, and more.
